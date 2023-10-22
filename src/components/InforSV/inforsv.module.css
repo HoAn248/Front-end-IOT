@@ -1,0 +1,40 @@
+.main{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 5rem;
+}
+.main .infor_main{
+    width: 90%;
+    background-color: rgb(227, 227, 225);
+    height: 40rem;
+    border-radius: 2rem;
+    display: flex;
+    justify-content: space-around;
+}
+.main .infor_sv{
+    width: 30%;
+    padding: 3rem 0 0 3rem;
+    /* background: white; */
+    border-right: 1px solid white;
+}
+.main .infor_sv li{
+    padding: 1rem 0;
+    font-size: 2rem;
+}
+.main .infor_vh{
+    width: 60%;
+    padding: 3rem 0 0 0;
+}
+.main .infor_vh .list_infor{
+    display: flex;
+    justify-content: space-around;
+}
+.main .infor_vh .list_infor li{
+    font-size: 2rem;
+}
+.main .infor_vh .list_box{
+    margin-top: 2rem;
+    height: 30rem;
+    overflow-y: scroll;
+}

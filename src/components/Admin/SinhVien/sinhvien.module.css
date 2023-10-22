@@ -1,0 +1,34 @@
+table{
+    border: 1px solid gray;
+    width: 80%;
+    text-align: center;
+}
+th{
+    font-size: 3rem;
+    border: 1px solid gray;
+    padding: 1rem;
+}
+td{
+    font-size: 2rem;
+    border: 1px solid gray;
+    padding: 1rem;
+}
+.sinhvien_show{
+    display: flex;
+    justify-content: center;
+}
+.sinhvien_show .sinhvien_title{
+    padding: 2rem;
+    text-align: center;
+}
+.sinhvien_show .sinhvien_table{
+    display: flex;
+    justify-content: center;
+}
+.sinhvien_container{
+    width: 100%;
+}
+i{
+    color: black;
+    margin: 0 1rem;
+}

@@ -1,0 +1,55 @@
+table{
+    border: 1px solid gray;
+    width: 80%;
+    text-align: center;
+}
+th{
+    font-size: 3rem;
+    border: 1px solid gray;
+    padding: 1rem;
+}
+td{
+    font-size: 2rem;
+    border: 1px solid gray;
+    padding: 1rem;
+}
+.admin_show{
+    display: flex;
+    justify-content: center;
+}
+.admin_show .admin_title{
+    padding: 2rem;
+    text-align: center;
+}
+.admin_show .admin_table{
+    display: flex;
+    justify-content: center;
+}
+.admin_container{
+    width: 100%;
+}
+
+.btn_admin{
+    border: 0;
+    background-color: white;
+    cursor: pointer;
+    width: 130px;
+    height: 30px;
+    border-radius: 20px;
+    transition: all 0.4s;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 15px;
+    font-weight: bold;
+}
+.btn_admin:hover{
+    background-color: rgb(204, 239, 151);
+}
+.box_diemdanh{
+    margin-top: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}

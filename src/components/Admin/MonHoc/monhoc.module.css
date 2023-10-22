@@ -1,0 +1,30 @@
+table{
+    border: 1px solid gray;
+    width: 80%;
+    text-align: center;
+}
+th{
+    font-size: 3rem;
+    border: 1px solid gray;
+    padding: 1rem;
+}
+td{
+    font-size: 2rem;
+    border: 1px solid gray;
+    padding: 1rem;
+}
+.monhoc_show{
+    display: flex;
+    justify-content: center;
+}
+.monhoc_show .monhoc_title{
+    padding: 2rem;
+    text-align: center;
+}
+.monhoc_show .monhoc_table{
+    display: flex;
+    justify-content: center;
+}
+.monhoc_container{
+    width: 100%;
+}
